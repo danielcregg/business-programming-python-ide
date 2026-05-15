@@ -47,7 +47,8 @@
         "files.exclude": {
           ".devcontainer": true,
           ".gitignore": true,
-          ".vscode": true
+          ".vscode": true,
+          "README.md": true
         }
       }
     }
