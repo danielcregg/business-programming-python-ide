@@ -1,4 +1,4 @@
-# 🐍 Business Programming — Python Coding Environment
+# 🐍 Business Programming - Python Coding Environment
 
 > A ready-to-go Python coding environment for the Business Programming module.
 > **No installs. No setup. Just click and code.**
