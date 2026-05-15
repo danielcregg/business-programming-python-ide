@@ -13,7 +13,9 @@
   </a>
 </p>
 
-That's it. Click the green button above and you'll be writing Python in your browser within about 30 seconds.
+That's it. Click the green button above and you'll be writing Python in your browser in about 60 seconds. On first launch please wait until the play button ▶ appears. It will take a minute. Then test the environment is working by clicking that play button ▶ and watching the code execute without errors. 
+
+The environment does not need to be stopped, just kill the browser tab when you are done coding and all you changes will be automatically saved. Click the same green link above again to restart your environment. All subsequent starts of the environment will be much quicker than the first start, maybe around 15 seconds.   
 
 ---
 
