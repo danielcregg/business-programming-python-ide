@@ -60,6 +60,7 @@ No downloads. No installation. Works on **any** computer with a browser, includi
 | Button does nothing | Make sure you're signed in to GitHub first |
 | "You've reached your Codespaces limit" | Delete old Codespaces at [github.com/codespaces](https://github.com/codespaces) |
 | Code won't run | Make sure the file ends in `.py` and click the ▶ button |
+| Browser asks to "See text and images copied to the clipboard" | Click **Allow** — it's a one-time browser permission so paste works in the editor |
 | Need to start fresh | Close the tab, delete the Codespace, click the button again |
 
 If you're stuck, ask in class or post in the module forum.
