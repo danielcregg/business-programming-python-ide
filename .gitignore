@@ -1,7 +1,24 @@
+# Python bytecode
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
+
+# Virtual environments
 .venv/
 venv/
+env/
+
+# Environment variables
 .env
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS metadata
 .DS_Store
+Thumbs.db

@@ -24,6 +24,8 @@
         "editor.fontSize": 14,
         "editor.minimap.enabled": false,
         "editor.fontWeight": "normal",
+        "editor.renderWhitespace": "boundary",
+        "workbench.startupEditor": "none",
         "workbench.colorTheme": "GitHub Dark Default",
         "git.autofetch": true,
         "terminal.integrated.shellIntegration.decorationsEnabled": "both",
@@ -51,7 +53,9 @@
           ".devcontainer": true,
           ".gitignore": true,
           ".vscode": true,
-          "README.md": true
+          "README.md": true,
+          "__pycache__": true,
+          "*.pyc": true
         }
       }
     }
