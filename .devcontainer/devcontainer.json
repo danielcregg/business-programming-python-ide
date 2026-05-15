@@ -6,6 +6,9 @@
   },
   "postCreateCommand": "bash .devcontainer/postCreate.sh",
   "customizations": {
+    "codespaces": {
+      "openFiles": ["hello.py"]
+    },
     "vscode": {
       "extensions": [
         "ms-python.python",
