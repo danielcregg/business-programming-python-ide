@@ -1,0 +1,55 @@
+{
+  "name": "Business Programming Environment",
+  "image": "mcr.microsoft.com/devcontainers/python:latest",
+  "features": {
+    "ghcr.io/devcontainers/features/git-lfs:1": {}
+  },
+  "postCreateCommand": "bash .devcontainer/postCreate.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.debugpy",
+        "mathematic.vscode-pdf",
+        "github.github-vscode-theme"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "files.autoSave": "afterDelay",
+        "editor.formatOnSave": true,
+        "editor.fontSize": 14,
+        "editor.minimap.enabled": false,
+        "editor.fontWeight": "normal",
+        "workbench.colorTheme": "GitHub Dark Default",
+        "git.autofetch": true,
+        "terminal.integrated.shellIntegration.decorationsEnabled": "both",
+        "terminal.integrated.minimumContrastRatio": 4.5,
+        "terminal.integrated.cursorStyle": "line",
+        "terminal.integrated.cursorBlinking": true,
+        "terminal.integrated.fontWeight": "bold",
+        "workbench.editorAssociations": {
+          "*.md": "vscode.markdown.preview.editor"
+        },
+        "workbench.colorCustomizations": {
+          "terminal.background": "#0d1117",
+          "terminal.foreground": "#e6edf3",
+          "terminalCursor.foreground": "#58a6ff",
+          "terminal.ansiGreen": "#3fb950",
+          "terminal.ansiBrightGreen": "#56d364",
+          "terminal.ansiYellow": "#d29922",
+          "terminal.ansiBrightYellow": "#e3b341",
+          "terminal.ansiCyan": "#39c5cf",
+          "terminal.ansiBrightCyan": "#56d4dd",
+          "terminal.ansiBrightWhite": "#ffffff",
+          "terminal.selectionBackground": "#264f7855"
+        },
+        "files.exclude": {
+          ".devcontainer": true,
+          ".gitignore": true,
+          ".vscode": true
+        }
+      }
+    }
+  }
+}
