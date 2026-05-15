@@ -8,7 +8,7 @@
 ## 🚀 Start Coding Now (1 Click)
 
 <p align="center">
-  <a href="https://codespaces.new/danielcregg/business-programming-environment-public?quickstart=1">
+  <a href="https://codespaces.new/danielcregg/business-programming-python-ide?quickstart=1">
     <img src="https://img.shields.io/badge/▶%20Click%20Here%20to%20Start%20Coding-Open%20in%20GitHub%20Codespaces-2ea44f?style=for-the-badge&logo=github&logoColor=white&labelColor=24292f" alt="Open in GitHub Codespaces" height="60">
   </a>
 </p>
@@ -38,7 +38,7 @@ No downloads. No installation. Works on **any** computer with a browser, includi
    - Don't have one? It takes ~30 seconds at [github.com/signup](https://github.com/signup).
 3. Wait about 30–60 seconds while GitHub sets up your environment.
 4. The VS Code editor will appear in your browser. **You're in!**
-5. Open the file `hello.py` in the left sidebar, then click the ▶ **Run** button in the top-right corner.
+5. The file `hello.py` will already be open in the editor. Click the ▶ **Run** button in the top-right corner.
 6. You should see `Hello, Business Programming!` printed in the terminal at the bottom. 🎉
 
 ---
