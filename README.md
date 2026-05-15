@@ -36,7 +36,7 @@ No downloads. No installation. Works on **any** computer with a browser, includi
 1. **Click the green button above.**
 2. If asked, **sign in to GitHub** with your free account.
    - Don't have one? It takes ~30 seconds at [github.com/signup](https://github.com/signup).
-3. Wait about 30–60 seconds while GitHub sets up your environment.
+3. Wait about 10 seconds while GitHub opens your environment.
 4. The VS Code editor will appear in your browser. **You're in!**
 5. The file `hello.py` will already be open in the editor. Click the ▶ **Run** button in the top-right corner.
 6. You should see `Hello, Business Programming!` printed in the terminal at the bottom. 🎉
