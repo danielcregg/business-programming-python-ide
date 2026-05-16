@@ -3,6 +3,11 @@ set -e
 
 python --version && echo 'Python is ready!'
 
+# Ensure zip is available for the "Download my work" helper
+if ! command -v zip >/dev/null 2>&1; then
+  sudo apt-get update && sudo apt-get install -y zip
+fi
+
 # Custom terminal prompt (only added once — guard prevents duplicates on rebuild)
 if ! grep -q '# bp-custom-prompt' ~/.bashrc; then
 cat >> ~/.bashrc << 'BASHRC'

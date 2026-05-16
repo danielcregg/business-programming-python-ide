@@ -16,6 +16,7 @@
         "ms-python.debugpy",
         "usernamehw.errorlens",
         "oderwat.indent-rainbow",
+        "seunlanlege.action-buttons",
         "mathematic.vscode-pdf",
         "github.github-vscode-theme"
       ],
@@ -58,6 +59,19 @@
           "README.md": true,
           "__pycache__": true,
           "*.pyc": true
+        },
+        "actionButtons": {
+          "reloadButton": null,
+          "defaultColor": "#ffffff",
+          "loadNpmCommands": false,
+          "commands": [
+            {
+              "name": "📦 Download my work",
+              "color": "#56d364",
+              "singleInstance": true,
+              "command": "bash .devcontainer/download.sh"
+            }
+          ]
         }
       }
     }

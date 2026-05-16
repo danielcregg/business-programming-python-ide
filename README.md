@@ -1,4 +1,4 @@
-# 🐍 Business Programming - Python Coding Environment
+# 🐍 Business Programming — Coding Environment
 
 > A ready-to-go Python coding environment for the Business Programming module.
 > **No installs. No setup. Just click and code.**
@@ -13,9 +13,7 @@
   </a>
 </p>
 
-That's it. Click the green button above and you'll be writing Python in your browser in about 60 seconds. On first launch please wait until the play button ▶ appears. It will take a minute. Then test the environment is working by clicking that play button ▶ and watching the code execute without errors. 
-
-The environment does not need to be stopped, just kill the browser tab when you are done coding and all you changes will be automatically saved. Click the same green link above again to restart your environment. All subsequent starts of the environment will be much quicker than the first start, maybe around 15 seconds.   
+That's it. Click the green button above and you'll be writing Python in your browser within about 60 seconds.
 
 ---
 
@@ -38,7 +36,7 @@ No downloads. No installation. Works on **any** computer with a browser, includi
 1. **Click the green button above.**
 2. If asked, **sign in to GitHub** with your free account.
    - Don't have one? It takes ~30 seconds at [github.com/signup](https://github.com/signup).
-3. Wait about 15 seconds while GitHub opens your environment.
+3. Wait about 10 seconds while GitHub opens your environment.
 4. The VS Code editor will appear in your browser. **You're in!**
 5. The file `hello.py` will already be open in the editor. Click the ▶ **Run** button in the top-right corner.
 6. You should see `Hello, Business Programming!` printed in the terminal at the bottom. 🎉
@@ -52,6 +50,7 @@ No downloads. No installation. Works on **any** computer with a browser, includi
 - GitHub gives every free account **60 free hours per month** of Codespaces — plenty for this course.
 - To create a new Python file: right-click in the sidebar → New File → name it `something.py`.
 - To run a file: open it, then click the ▶ play icon at the top-right.
+- **To save the whole project to your computer:** click the 📦 **Download my work** button at the bottom-left of the screen, then right-click the new `.zip` file that appears in the Explorer → **Download**.
 
 ---
 
