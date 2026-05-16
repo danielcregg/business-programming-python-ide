@@ -70,6 +70,12 @@
               "color": "#56d364",
               "singleInstance": true,
               "command": "bash .devcontainer/download.sh"
+            },
+            {
+              "name": "📂 Restore my work",
+              "color": "#58a6ff",
+              "singleInstance": true,
+              "command": "bash .devcontainer/restore.sh"
             }
           ]
         }

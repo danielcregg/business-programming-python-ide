@@ -51,6 +51,7 @@ No downloads. No installation. Works on **any** computer with a browser, includi
 - To create a new Python file: right-click in the sidebar → New File → name it `something.py`.
 - To run a file: open it, then click the ▶ play icon at the top-right.
 - **To save the whole project to your computer:** click the 📦 **Download my work** button at the bottom-left of the screen, then right-click the new `.zip` file that appears in the Explorer → **Download**.
+- **To pick up where you left off later:** drag your saved `my-work-*.zip` from your computer onto the Explorer panel (left sidebar), then click the 📂 **Restore my work** button at the bottom-left.
 
 ---
 
@@ -62,6 +63,7 @@ No downloads. No installation. Works on **any** computer with a browser, includi
 | "You've reached your Codespaces limit" | Delete old Codespaces at [github.com/codespaces](https://github.com/codespaces) |
 | Code won't run | Make sure the file ends in `.py` and click the ▶ button |
 | Browser asks to "See text and images copied to the clipboard" | Click **Allow** — it's a one-time browser permission so paste works in the editor |
+| "No zip file found" when I click 📂 Restore my work | Drag the `.zip` from your computer's Downloads folder onto the Explorer panel first, wait for it to upload, then click Restore again |
 | Need to start fresh | Close the tab, delete the Codespace, click the button again |
 
 If you're stuck, ask in class or post in the module forum.

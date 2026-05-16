@@ -3,9 +3,9 @@ set -e
 
 python --version && echo 'Python is ready!'
 
-# Ensure zip is available for the "Download my work" helper
-if ! command -v zip >/dev/null 2>&1; then
-  sudo apt-get update && sudo apt-get install -y zip
+# Ensure zip/unzip are available for the Download/Restore helpers
+if ! command -v zip >/dev/null 2>&1 || ! command -v unzip >/dev/null 2>&1; then
+  sudo apt-get update && sudo apt-get install -y zip unzip
 fi
 
 # Custom terminal prompt (only added once — guard prevents duplicates on rebuild)
