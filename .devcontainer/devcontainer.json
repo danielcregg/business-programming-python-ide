@@ -57,6 +57,7 @@
           ".gitignore": true,
           ".vscode": true,
           "README.md": true,
+          "LICENSE": true,
           "__pycache__": true,
           "*.pyc": true
         },
