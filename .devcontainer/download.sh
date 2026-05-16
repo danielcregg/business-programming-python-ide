@@ -1,6 +1,11 @@
 #!/bin/bash
-# Bundles the workspace into a timestamped zip so students can save their
+# Bundles the student's work into a timestamped zip so they can save their
 # project locally via right-click -> Download in the file explorer.
+#
+# Only includes files the student writes (e.g. hello.py and anything they
+# create themselves). Excludes scaffolding (README, LICENSE, .devcontainer,
+# .gitignore) since they don't need that on their laptop -- it just clutters
+# their Downloads folder.
 
 set -e
 
@@ -20,9 +25,12 @@ ZIP_NAME="my-work-${TIMESTAMP}.zip"
 
 zip -rq "$ZIP_NAME" . \
   -x ".git/*" "*/.git/*" \
+     ".devcontainer/*" ".devcontainer" \
+     ".vscode/*" ".vscode" \
      "__pycache__/*" "*/__pycache__/*" \
      "*.pyc" "*.zip" \
-     "node_modules/*"
+     ".gitignore" "LICENSE" "README.md" \
+     "node_modules/*" "*/node_modules/*"
 
 echo "✓ Done! Created: $ZIP_NAME"
 echo ""
