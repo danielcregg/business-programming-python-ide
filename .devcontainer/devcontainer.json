@@ -23,6 +23,9 @@
           "ms-python.python",
           "ms-python.vscode-pylance"
         ],
+        "envReady.splashTitle": "Setting up your Python environment",
+        "envReady.splashMessage": "Loading Python and your coding tools. First launch can take up to a minute; subsequent launches are much faster.",
+        "envReady.timeoutSeconds": 90,
         "files.autoSave": "afterDelay",
         "editor.formatOnSave": true,
         "editor.fontSize": 14,
