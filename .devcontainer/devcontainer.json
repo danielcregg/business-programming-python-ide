@@ -17,11 +17,16 @@
         "usernamehw.errorlens",
         "oderwat.indent-rainbow",
         "seunlanlege.action-buttons",
+        "danielcreggatu.env-ready",
         "mathematic.vscode-pdf",
         "github.github-vscode-theme"
       ],
       "settings": {
         "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "envReady.waitFor": [
+          "ms-python.python",
+          "ms-python.vscode-pylance"
+        ],
         "files.autoSave": "afterDelay",
         "editor.formatOnSave": true,
         "editor.fontSize": 14,
