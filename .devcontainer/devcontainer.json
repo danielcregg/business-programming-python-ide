@@ -1,9 +1,6 @@
 {
   "name": "Business Programming Environment",
-  "image": "mcr.microsoft.com/devcontainers/python:latest",
-  "features": {
-    "ghcr.io/devcontainers/features/git-lfs:1": {}
-  },
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
   "postCreateCommand": "bash .devcontainer/postCreate.sh",
   "customizations": {
     "codespaces": {
@@ -18,7 +15,6 @@
         "oderwat.indent-rainbow",
         "seunlanlege.action-buttons",
         "danielcreggatu.env-ready",
-        "mathematic.vscode-pdf",
         "github.github-vscode-theme"
       ],
       "settings": {
