@@ -1,6 +1,11 @@
 # Welcome to the Business Programming coding environment!
 #
-# To run this file:
+# 🕐 FIRST: Wait until you see the ▶ (Run) button appear in the top-right
+#    corner of this editor. That tells you Python is fully loaded and ready.
+#    On the very first launch it can take up to a minute; subsequent
+#    launches are much faster (around 15 seconds).
+#
+# Then, to run this file:
 #   1. Click the ▶ (Run) button in the top-right of the editor, OR
 #   2. Right-click anywhere in this file and choose "Run Python File in Terminal"
 #
